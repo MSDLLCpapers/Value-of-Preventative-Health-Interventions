@@ -1,0 +1,44 @@
+This project uses third-party libraries which may be distributed under different
+licenses. We have attempted to list all of these third party libraries and
+their licenses below.
+
+None of these libraries are redistributed in this repository. The scripts import
+them at run time, and they must be installed separately by anyone reproducing the
+analysis. Their licenses therefore apply to those separate installations, not to
+the contents of this repository.
+
+For the licensing and required attribution of the third-party *datasets* in the
+Data/ folder, see ATTRIBUTIONS.md.
+
+--------------------------------------------------
+Third party Python libraries listed by License type
+[Format: Name - URL]
+--------------------------------------------------
+
+BSD License (http://www.opensource.org/licenses/BSD-3-Clause)
+  * numpy - https://numpy.org/
+  * pandas - https://pandas.pydata.org/
+
+GNU General Public License v3.0 (https://choosealicense.com/licenses/gpl-3.0/)
+  * country_converter - https://github.com/IndEcol/country_converter/
+
+NCSA Open Source License (https://opensource.org/license/ncsa)
+  * linearmodels - https://bashtage.github.io/linearmodels/
+
+--------------------------------------------------
+Third party R packages listed by License type
+[Format: Name - URL]
+--------------------------------------------------
+
+Artistic License 2.0 (https://opensource.org/license/Artistic-2.0)
+  * ggimage - https://github.com/YuLab-SMU/ggimage
+
+GNU General Public License v3.0 (https://choosealicense.com/licenses/gpl-3.0/)
+  * countrycode - https://vincentarelbundock.github.io/countrycode/
+
+MIT / X11 License (http://www.opensource.org/licenses/MIT)
+  * dplyr - https://dplyr.tidyverse.org/
+  * ggplot2 - https://ggplot2.tidyverse.org/
+  * patchwork - https://patchwork.data-imaginist.com/
+  * readxl - https://readxl.tidyverse.org/
+  * tidyr - https://tidyr.tidyverse.org/

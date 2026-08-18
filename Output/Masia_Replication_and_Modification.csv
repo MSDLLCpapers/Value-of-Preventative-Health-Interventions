@@ -1,0 +1,191 @@
+                    PanelOLS Estimation Summary                     
+Dep. Variable:   ,PCGDP_Growth    ,  R-squared:           ,0.1310   
+Estimator:       ,PanelOLS        ,  R-squared (Between): ,-114.34  
+No. Observations:,739             ,  R-squared (Within):  ,0.1226   
+Date:            ,Wed, Jul 29 2026,  R-squared (Overall): ,-75.532  
+Time:            ,08:46:38        ,  Log-likelihood       ,1427.1   
+Cov. Estimator:  ,Clustered       ,                       ,         
+                 ,                ,  F-statistic:         ,7.9399   
+Entities:        ,134             ,  P-value              ,0.0000   
+Avg Obs:         ,5.5149          ,  Distribution:        ,F(13,685)
+Min Obs:         ,1.0000          ,                       ,         
+Max Obs:         ,8.0000          ,  F-statistic (robust):,12.290   
+                 ,                ,  P-value              ,0.0000   
+Time periods:    ,41              ,  Distribution:        ,F(13,685)
+Avg Obs:         ,18.024          ,                       ,         
+Min Obs:         ,1.0000          ,                       ,         
+Max Obs:         ,48.000          ,                       ,         
+                 ,                ,                       ,         
+                               Parameter Estimates                               
+                       ,Parameter ,Std. Err., T-stat,P-value, Lower CI , Upper CI
+lagged_ln_PCGDP        ,-0.0254   ,0.0029   ,-8.6463,0.0000 ,-0.0311   ,-0.0196  
+Inverse_Life_Expectancy,-4.1816   ,1.1635   ,-3.5941,0.0003 ,-6.4659   ,-1.8972  
+ln_Fertility_Rate      ,-0.0262   ,0.0054   ,-4.8366,0.0000 ,-0.0368   ,-0.0155  
+Law_Order              ,0.0115    ,0.0138   ,0.8345 ,0.4043 ,-0.0156   ,0.0386   
+Investment_Ratio       ,-0.0421   ,0.0233   ,-1.8040,0.0717 ,-0.0879   ,0.0037   
+Female_Education       ,0.0019    ,0.0021   ,0.9100 ,0.3631 ,-0.0022   ,0.0059   
+Male_Education         ,-0.0004   ,0.0019   ,-0.2265,0.8209 ,-0.0042   ,0.0034   
+Consumption_Ratio      ,-0.0537   ,0.0164   ,-3.2762,0.0011 ,-0.0859   ,-0.0215  
+Openness_Ratio         ,0.0068    ,0.0029   ,2.3548 ,0.0188 ,0.0011    ,0.0125   
+Terms_Trade            ,-0.0130   ,0.0043   ,-3.0343,0.0025 ,-0.0214   ,-0.0046  
+Democracy              ,-0.0013   ,0.0175   ,-0.0729,0.9419 ,-0.0357   ,0.0331   
+I(Democracy ** 2)      ,-0.0067   ,0.0157   ,-0.4250,0.6710 ,-0.0374   ,0.0241   
+Inflation_Rate         ,-3.532e-07,1.309e-06,-0.2699,0.7873 ,-2.923e-06,2.217e-06
+
+F-test for Poolability: 2.2111
+P-value: 0.0000
+Distribution: F(40,685)
+
+Included effects: Time                    PanelOLS Estimation Summary                     
+Dep. Variable:   ,PCGDP_Growth    ,  R-squared:           ,0.1461   
+Estimator:       ,PanelOLS        ,  R-squared (Between): ,-83.835  
+No. Observations:,729             ,  R-squared (Within):  ,0.1402   
+Date:            ,Wed, Jul 29 2026,  R-squared (Overall): ,-55.078  
+Time:            ,08:46:38        ,  Log-likelihood       ,1409.5   
+Cov. Estimator:  ,Clustered       ,                       ,         
+                 ,                ,  F-statistic:         ,8.2380   
+Entities:        ,133             ,  P-value              ,0.0000   
+Avg Obs:         ,5.4812          ,  Distribution:        ,F(14,674)
+Min Obs:         ,1.0000          ,                       ,         
+Max Obs:         ,8.0000          ,  F-statistic (robust):,12.500   
+                 ,                ,  P-value              ,0.0000   
+Time periods:    ,41              ,  Distribution:        ,F(14,674)
+Avg Obs:         ,17.780          ,                       ,         
+Min Obs:         ,1.0000          ,                       ,         
+Max Obs:         ,48.000          ,                       ,         
+                 ,                ,                       ,         
+                              Parameter Estimates                               
+                       ,Parameter,Std. Err., T-stat,P-value, Lower CI , Upper CI
+lagged_ln_PCGDP        ,-0.0259  ,0.0029   ,-8.9036,0.0000 ,-0.0316   ,-0.0202  
+avg_lagged_DTP1        ,0.0005   ,0.0002   ,2.5381 ,0.0114 ,0.0001    ,0.0010   
+Inverse_Life_Expectancy,-3.4186  ,1.2314   ,-2.7762,0.0057 ,-5.8364   ,-1.0008  
+ln_Fertility_Rate      ,-0.0248  ,0.0055   ,-4.5377,0.0000 ,-0.0355   ,-0.0141  
+Law_Order              ,0.0062   ,0.0139   ,0.4443 ,0.6570 ,-0.0211   ,0.0335   
+Investment_Ratio       ,-0.0463  ,0.0237   ,-1.9555,0.0509 ,-0.0929   ,0.0002   
+Female_Education       ,0.0013   ,0.0021   ,0.6177 ,0.5369 ,-0.0029   ,0.0055   
+Male_Education         ,0.0002   ,0.0020   ,0.0870 ,0.9307 ,-0.0038   ,0.0042   
+Consumption_Ratio      ,-0.0566  ,0.0167   ,-3.3991,0.0007 ,-0.0894   ,-0.0239  
+Openness_Ratio         ,0.0078   ,0.0029   ,2.7095 ,0.0069 ,0.0021    ,0.0134   
+Terms_Trade            ,-0.0115  ,0.0043   ,-2.6616,0.0080 ,-0.0200   ,-0.0030  
+Democracy              ,-0.0077  ,0.0172   ,-0.4469,0.6551 ,-0.0415   ,0.0261   
+I(Democracy ** 2)      ,0.0020   ,0.0150   ,0.1350 ,0.8927 ,-0.0275   ,0.0315   
+Inflation_Rate         ,5.042e-07,1.304e-06,0.3865 ,0.6992 ,-2.057e-06,3.065e-06
+
+F-test for Poolability: 2.2037
+P-value: 0.0000
+Distribution: F(40,674)
+
+Included effects: Time                    PanelOLS Estimation Summary                     
+Dep. Variable:   ,PCGDP_Growth    ,  R-squared:           ,0.2118   
+Estimator:       ,PanelOLS        ,  R-squared (Between): ,-1097.6  
+No. Observations:,189             ,  R-squared (Within):  ,0.0037   
+Date:            ,Wed, Jul 29 2026,  R-squared (Overall): ,-457.40  
+Time:            ,08:47:32        ,  Log-likelihood       ,510.84   
+Cov. Estimator:  ,Clustered       ,                       ,         
+                 ,                ,  F-statistic:         ,3.4930   
+Entities:        ,27              ,  P-value              ,0.0001   
+Avg Obs:         ,7.0000          ,  Distribution:        ,F(13,169)
+Min Obs:         ,7.0000          ,                       ,         
+Max Obs:         ,7.0000          ,  F-statistic (robust):,1.903e+15
+                 ,                ,  P-value              ,0.0000   
+Time periods:    ,7               ,  Distribution:        ,F(13,169)
+Avg Obs:         ,27.000          ,                       ,         
+Min Obs:         ,27.000          ,                       ,         
+Max Obs:         ,27.000          ,                       ,         
+                 ,                ,                       ,         
+                             Parameter Estimates                             
+                       ,Parameter,Std. Err., T-stat,P-value,Lower CI,Upper CI
+lagged_ln_PCGDP        ,-0.0381  ,0.0023   ,-16.263,0.0000 ,-0.0427 ,-0.0335 
+Inverse_Life_Expectancy,3.5914   ,3.1960   ,1.1237 ,0.2627 ,-2.7177 ,9.9006  
+ln_Fertility_Rate      ,0.0015   ,0.0088   ,0.1659 ,0.8684 ,-0.0159 ,0.0188  
+Law_Order              ,0.0206   ,0.0221   ,0.9333 ,0.3520 ,-0.0230 ,0.0642  
+Investment_Ratio       ,-0.0100  ,0.0204   ,-0.4868,0.6270 ,-0.0503 ,0.0304  
+Female_Education       ,-0.0066  ,0.0047   ,-1.4127,0.1596 ,-0.0159 ,0.0026  
+Male_Education         ,0.0059   ,0.0041   ,1.4438 ,0.1506 ,-0.0022 ,0.0140  
+Consumption_Ratio      ,-0.1113  ,0.0176   ,-6.3189,0.0000 ,-0.1460 ,-0.0765 
+Openness_Ratio         ,-0.0029  ,0.0045   ,-0.6566,0.5124 ,-0.0117 ,0.0059  
+Terms_Trade            ,-0.0117  ,0.0187   ,-0.6228,0.5342 ,-0.0486 ,0.0253  
+Democracy              ,-0.3133  ,0.2361   ,-1.3274,0.1862 ,-0.7793 ,0.1526  
+I(Democracy ** 2)      ,0.1800   ,0.1444   ,1.2465 ,0.2143 ,-0.1051 ,0.4652  
+Inflation_Rate         ,-0.0003  ,0.0008   ,-0.3781,0.7058 ,-0.0018 ,0.0013  
+
+F-test for Poolability: 13.945
+P-value: 0.0000
+Distribution: F(6,169)
+
+Included effects: Time                    PanelOLS Estimation Summary                     
+Dep. Variable:   ,PCGDP_Growth    ,  R-squared:           ,0.2162   
+Estimator:       ,PanelOLS        ,  R-squared (Between): ,-887.17  
+No. Observations:,189             ,  R-squared (Within):  ,-0.0231  
+Date:            ,Wed, Jul 29 2026,  R-squared (Overall): ,-369.71  
+Time:            ,08:47:33        ,  Log-likelihood       ,511.37   
+Cov. Estimator:  ,Clustered       ,                       ,         
+                 ,                ,  F-statistic:         ,3.3101   
+Entities:        ,27              ,  P-value              ,0.0001   
+Avg Obs:         ,7.0000          ,  Distribution:        ,F(14,168)
+Min Obs:         ,7.0000          ,                       ,         
+Max Obs:         ,7.0000          ,  F-statistic (robust):,8.444e+14
+                 ,                ,  P-value              ,0.0000   
+Time periods:    ,7               ,  Distribution:        ,F(14,168)
+Avg Obs:         ,27.000          ,                       ,         
+Min Obs:         ,27.000          ,                       ,         
+Max Obs:         ,27.000          ,                       ,         
+                 ,                ,                       ,         
+                             Parameter Estimates                             
+                       ,Parameter,Std. Err., T-stat,P-value,Lower CI,Upper CI
+lagged_ln_PCGDP        ,-0.0398  ,0.0031   ,-12.801,0.0000 ,-0.0460 ,-0.0337 
+lagged_DTP1            ,0.0004   ,0.0004   ,1.1189 ,0.2648 ,-0.0003 ,0.0012  
+Inverse_Life_Expectancy,4.2208   ,3.6144   ,1.1678 ,0.2446 ,-2.9147 ,11.356  
+ln_Fertility_Rate      ,0.0041   ,0.0071   ,0.5739 ,0.5668 ,-0.0100 ,0.0182  
+Law_Order              ,0.0242   ,0.0218   ,1.1085 ,0.2692 ,-0.0189 ,0.0672  
+Investment_Ratio       ,-0.0094  ,0.0198   ,-0.4754,0.6351 ,-0.0484 ,0.0296  
+Female_Education       ,-0.0081  ,0.0054   ,-1.5018,0.1350 ,-0.0189 ,0.0026  
+Male_Education         ,0.0072   ,0.0044   ,1.6181 ,0.1075 ,-0.0016 ,0.0159  
+Consumption_Ratio      ,-0.1174  ,0.0185   ,-6.3491,0.0000 ,-0.1539 ,-0.0809 
+Openness_Ratio         ,-0.0028  ,0.0045   ,-0.6237,0.5337 ,-0.0117 ,0.0061  
+Terms_Trade            ,-0.0138  ,0.0163   ,-0.8498,0.3966 ,-0.0459 ,0.0183  
+Democracy              ,-0.2372  ,0.2657   ,-0.8927,0.3733 ,-0.7617 ,0.2873  
+I(Democracy ** 2)      ,0.1366   ,0.1606   ,0.8502 ,0.3964 ,-0.1806 ,0.4537  
+Inflation_Rate         ,-0.0003  ,0.0008   ,-0.3789,0.7052 ,-0.0018 ,0.0012  
+
+F-test for Poolability: 13.878
+P-value: 0.0000
+Distribution: F(6,168)
+
+Included effects: Time                    PanelOLS Estimation Summary                     
+Dep. Variable:   ,PCGDP_Growth    ,  R-squared:           ,0.2154   
+Estimator:       ,PanelOLS        ,  R-squared (Between): ,0.3151   
+No. Observations:,104             ,  R-squared (Within):  ,0.1238   
+Date:            ,Wed, Jul 29 2026,  R-squared (Overall): ,0.1533   
+Time:            ,08:47:33        ,  Log-likelihood       ,303.76   
+Cov. Estimator:  ,Clustered       ,                       ,         
+                 ,                ,  F-statistic:         ,2.3879   
+Entities:        ,20              ,  P-value              ,0.0149   
+Avg Obs:         ,5.2000          ,  Distribution:        ,F(10,87) 
+Min Obs:         ,3.0000          ,                       ,         
+Max Obs:         ,7.0000          ,  F-statistic (robust):,5.016e+14
+                 ,                ,  P-value              ,0.0000   
+Time periods:    ,7               ,  Distribution:        ,F(10,87) 
+Avg Obs:         ,14.857          ,                       ,         
+Min Obs:         ,5.0000          ,                       ,         
+Max Obs:         ,20.000          ,                       ,         
+                 ,                ,                       ,         
+                                   Parameter Estimates                                   
+                                   ,Parameter,Std. Err., T-stat,P-value,Lower CI,Upper CI
+lagged_ln_PCGDP                    ,-0.0254  ,0.0137   ,-1.8547,0.0670 ,-0.0526 ,0.0018  
+sum_ln_lagged_Immunization_Spending,0.0043   ,0.0009   ,4.9888 ,0.0000 ,0.0026  ,0.0060  
+ln_Fertility_Rate                  ,-0.0065  ,0.0095   ,-0.6819,0.4971 ,-0.0254 ,0.0124  
+Law_Order                          ,-0.0259  ,0.0426   ,-0.6078,0.5449 ,-0.1106 ,0.0588  
+Investment_Ratio                   ,-0.0045  ,0.0445   ,-0.1017,0.9192 ,-0.0929 ,0.0839  
+Consumption_Ratio                  ,-0.0135  ,0.0276   ,-0.4887,0.6263 ,-0.0683 ,0.0413  
+Openness_Ratio                     ,0.0050   ,0.0036   ,1.4056 ,0.1634 ,-0.0021 ,0.0122  
+Terms_Trade                        ,0.0317   ,0.0403   ,0.7875 ,0.4332 ,-0.0484 ,0.1118  
+Democracy                          ,0.5967   ,0.2720   ,2.1942 ,0.0309 ,0.0562  ,1.1373  
+I(Democracy ** 2)                  ,-0.3191  ,0.1516   ,-2.1046,0.0382 ,-0.6205 ,-0.0177 
+Inflation_Rate                     ,-0.0002  ,0.0015   ,-0.1391,0.8897 ,-0.0032 ,0.0028  
+
+F-test for Poolability: 8.6215
+P-value: 0.0000
+Distribution: F(6,87)
+
+Included effects: Time
